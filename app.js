@@ -250,3 +250,53 @@ console.log("Total Poin : " + totalPoinC);
 
 console.log("Tier       : " + tierPelangganC);
 
+// =====================================================
+// AKTIVITAS 6 : ARRAY & PERULANGAN MENU REKOMENDASI
+// =====================================================
+
+// Array menu rekomendasi
+let menuRekomendasi = [
+
+    "Kopi Susu Gula Aren",
+
+    "Cappuccino",
+
+    "Matcha Latte",
+
+    "Croissant",
+
+    "Chocolate Cake"
+
+];
+
+
+// Menampilkan menu ke Console
+console.log("");
+
+console.log("=== MENU REKOMENDASI KEDAI ===");
+
+
+for (
+    let i = 0;
+    i < menuRekomendasi.length;
+    i++
+) {
+
+    console.log(
+        (i + 1) +
+        ". " +
+        menuRekomendasi[i]
+    );
+}
+
+
+// Menampilkan jumlah menu
+console.log(
+    "Jumlah Menu Rekomendasi : " +
+    menuRekomendasi.length
+);
+
+
+console.log("");
+
+console.log("=== PROGRAM SELESAI ===");
